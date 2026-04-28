@@ -20,6 +20,7 @@ classDiagram
         +withdraw(id: String, amount: double) boolean
         +transfer(id: String, targetNumber: String, amount: double) boolean
         +computeBalance(id: String) double
+
     }
 
     Account "0..*" --> "1" User : 사용자 조회
